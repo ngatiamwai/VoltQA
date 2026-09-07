@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="VoltQA helps software teams build dependable test automation and release with confidence." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>VoltQA | Thoughtful QA automation for product teams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="VoltQA home">Volt<span>QA</span></a>
+      <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#stack">Tools</a>
+        <a class="button button-small" href="#contact">Talk to VoltQA</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Thoughtful QA automation for product teams</p>
+          <h1>Build quickly.<br />Release without the second-guessing.</h1>
+          <p class="lead">VoltQA helps growing software teams protect the customer journeys that matter most—so releases feel more predictable, engineers have more room to build, and customers meet a product that works.</p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Let’s talk about your product <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#services">See how we can help <span aria-hidden="true">→</span></a>
+          </div>
+          <p class="tool-line">Playwright · Cypress · Robot Framework · k6 · CI/CD integration</p>
+        </div>
+
+        <aside class="hero-note">
+          <span class="note-glow"></span>
+          <p class="note-label">THE VOLTQA PRINCIPLE</p>
+          <blockquote>“Quality should help a team feel more capable, not slower.”</blockquote>
+          <p>Good automation gives people useful signals before a release. It does not create more noise, meetings, or maintenance than the product needs.</p>
+          <div class="note-line"></div>
+          <p class="note-footer">Built around your product, your people, and your pace.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="benefits">
+      <div class="container">
+        <div class="split-intro">
+          <div>
+            <p class="eyebrow">A calmer way to ship</p>
+            <h2>Great releases are not just fast. They are well cared for.</h2>
+          </div>
+          <p>When a team is moving quickly, checking everything by hand becomes exhausting. Important bugs slip through, releases create stress, and engineers spend too much time revisiting work. VoltQA brings a practical, steady quality practice into the way your team already builds.</p>
+        </div>
+        <div class="grid grid-3 benefits-grid">
+          <article class="card benefit-card"><span class="card-number">01</span><h3>Protect the moments that matter</h3><p>Test the customer journeys your product cannot afford to get wrong before they reach production.</p></article>
+          <article class="card benefit-card"><span class="card-number">02</span><h3>Give your team breathing room</h3><p>Move repeatable checks out of release-day pressure so your engineers can focus on meaningful work.</p></article>
+          <article class="card benefit-card"><span class="card-number">03</span><h3>Know what you are shipping</h3><p>Get useful quality signals before release—not a pile of reports that leaves everyone guessing.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">How VoltQA helps</p>
+          <h2>Quality work that respects your product and your pace.</h2>
+          <p class="lead">We focus on the parts of your product where confidence matters most, then build automation your team can understand and maintain.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card service-card"><p class="service-label">Customer journeys</p><h3>End-to-end test automation</h3><p>Automate the important journeys—from sign-up and login to checkout, dashboards, permissions, and the workflows your customers return to every day.</p><span class="tag">Playwright · Cypress</span></article>
+          <article class="card service-card"><p class="service-label">Reliable foundations</p><h3>API test automation</h3><p>Validate business logic, data flows, authentication, integrations, and error handling with repeatable API checks that make failures easier to understand.</p><span class="tag">Robot Framework</span></article>
+          <article class="card service-card"><p class="service-label">Ready for demand</p><h3>Performance testing</h3><p>See how your product behaves under realistic traffic, identify bottlenecks, and prepare for launches or growth without relying on guesswork.</p><span class="tag">k6</span></article>
+          <article class="card service-card"><p class="service-label">Product-aware quality</p><h3>QA strategy and product support</h3><p>Use risk-based planning, UI/UX awareness, and product thinking to spend testing effort where it best protects users, revenue, and your team’s time.</p><span class="tag">QA Engineering · UI/UX · Product</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="process">
+      <div class="container">
+        <div class="section-intro"><p class="eyebrow">How we work</p><h2>Simple process. Thoughtful execution.</h2></div>
+        <div class="grid grid-3 steps">
+          <article class="step"><p class="step-number">01 / ASSESS</p><h3>Listen and learn</h3><p>We begin with your product, your customers, your workflow, and the areas that create the most uncertainty before release.</p></article>
+          <article class="step"><p class="step-number">02 / AUTOMATE</p><h3>Build the right coverage</h3><p>We create a focused, maintainable test suite that fits naturally into how your engineers already work.</p></article>
+          <article class="step"><p class="step-number">03 / IMPROVE</p><h3>Stay alongside the change</h3><p>As your product evolves, we keep important coverage current and make quality risks easier to act on.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-intro"><p class="eyebrow">Tools, used with purpose</p><h2>Modern testing tools. Chosen for the work in front of us.</h2><p class="lead">We use reliable, maintainable tooling and adapt it to your team—not the other way around.</p></div>
+        <div class="grid grid-4 tech-grid">
+          <article class="tech-card"><span>01</span><h3>Playwright</h3><p>Modern browser automation for dependable end-to-end testing.</p></article>
+          <article class="tech-card"><span>02</span><h3>Cypress</h3><p>Frontend and end-to-end testing for web applications.</p></article>
+          <article class="tech-card"><span>03</span><h3>Robot Framework</h3><p>Flexible API and keyword-driven automation workflows.</p></article>
+          <article class="tech-card"><span>04</span><h3>k6</h3><p>Performance, load, and reliability testing for growing products.</p></article>
+        </div>
+        <p class="ci-line">Works with GitHub Actions, GitLab CI, and the delivery workflow your team already uses.</p>
+      </div>
+    </section>
+
+    <section class="section section-surface" id="approach">
+      <div class="container split-intro approach-grid">
+        <div><p class="eyebrow">The VoltQA approach</p><h2>Testing is technical work. Trust is human work.</h2></div>
+        <div><p>Useful QA is not about producing the largest possible test suite. It is about understanding where people can be let down, then helping your team make better decisions before a release. VoltQA brings automation skill, product context, and clear communication together.</p><ul class="checklist"><li>Attention on customer journeys that carry real business risk</li><li>Clear updates that technical and non-technical teammates can use</li><li>A flexible remote partner who works with your team, not around it</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta">
+          <p class="eyebrow">Start with a conversation</p>
+          <h2>Tell us what makes your next release feel risky.</h2>
+          <p>We will listen to how your team works, where quality is slowing things down, and what a more confident release process could look like.</p>
+          <a class="button button-light" href="mailto:hello@voltqa.org?subject=VoltQA%20Introduction">Start a conversation <span aria-hidden="true">→</span></a>
+          <p class="contact-note">Prefer a simple email? <a href="mailto:hello@voltqa.org">hello@voltqa.org</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="logo" href="#top">Volt<span>QA</span></a>
+        <p>© 2026 VoltQA. Thoughtful QA automation for modern product teams.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#stack">Tools</a>
+        <a href="mailto:hello@voltqa.org">Email</a>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
