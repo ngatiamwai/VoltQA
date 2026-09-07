@@ -1,5 +1,5 @@
-VoltQA Website — Version 3 (Dark Mode)
-This is the final dark-mode version requested after Version 2. It keeps the human, conversational copy while restoring the dark visual identity and original footer structure.
+VoltQA Website
+This is the final dark-mode version. It keeps the human, conversational copy while restoring the dark visual identity and original footer structure.
 
 Files
 index.html — page content and structure
@@ -8,8 +8,7 @@ style.css — dark-mode colors, typography, layout, and responsive design
 
 main.js — mobile-navigation behavior
 
-Before publishing
-Replace hello@voltqa.org if your working business email is different.
+hello@voltqa.org is the working business email.
 
 When you create a Calendly booking page, replace the mailto: button links with your Calendly URL.
 
